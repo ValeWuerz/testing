@@ -6,7 +6,7 @@ import { WrapperComponent } from './wrapper/wrapper.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/wrapper', pathMatch: 'full' },
-  { path: 'testing/wrapper', component: WrapperComponent },
+  { path: 'wrapper', component: WrapperComponent },
   { path: 'test', component: TestComponent },
   {path: 'nav' , component: NavComponent}
 
